@@ -1,0 +1,26 @@
+{
+    "name": "projectmyst/account_info",
+    "type": "roundcube-plugin",
+    "description": "Lets you export an Apple Profile Config and displays account information.",
+    "keywords": ["export","configuration","settings","ios","information","account"],
+    "homepage": "https://github.com/ProjectMyst/roundcube-account_info",
+    "license": "GPL-3.0+",
+    "version": "1.2",
+    "authors": [
+        {
+            "name": "Geraldo V Vieira",
+            "email": "admin@hostoncilla.co.uk",
+            "role": "Lead"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "roundcube/plugin-installer": ">=0.1.3"
+    }
+}

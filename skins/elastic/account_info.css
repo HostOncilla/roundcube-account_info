@@ -1,0 +1,65 @@
+.listing.iconized li.account_info > a:before {
+	content: "\f05a"
+}
+
+table.account_info td {
+	padding: 3px 0;
+	border: none;
+}
+
+table.account_info td:first-child {
+	width: 30%;
+}
+
+table.account_info td:nth-child(2) {
+	padding-left: 5%;
+}
+
+.account_info .ai_title {
+	padding-bottom: 8px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.account_info .ai_title:not(.ai_first) {
+	padding-top: 10px;
+}
+
+.account_info .ai_uppercase {
+	text-transform: uppercase;
+}
+
+.account_info .ai_eye:not(:hover) + .ai_toggle {
+	display: none;
+}
+
+.account_info .ai_toggle {
+	margin-left: 5px;
+}
+
+.account_info .ai_eye_inline {
+	display: inline-block;
+	bottom: -4px;
+	left: 2px;
+}
+
+.account_info .ai_eye {
+	width: 15px;
+	height: 15px;
+	border: solid 1px #49abf8;
+	border-radius:  75% 15%;
+	position: relative;
+	transform: rotate(45deg);
+}
+
+.account_info .ai_eye:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border: solid 1px #49abf8;
+	border-radius: 50%;
+	left: 3px;
+	top: 3px;
+}
