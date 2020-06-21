@@ -1,2 +1,14 @@
-# roundcube-account_info
-Roundcube plugin that exports mail config profile and displays account information.
+Account Information Plugin for Roundcube
+========================================
+
+Roundcube plugin that exports mail config profile and displays account information. This plugin is based on href="https://github.com/paspo/roundcube_export_provisioning">export_provisioning</a> by <a href="https://github.com/paspo/">paspo</a>.
+
+## License
+
+This plugin is released under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License Version 3+</a>.
+
+## Installation
+
+* Rename the plugin folder to `account_info`
+* Upload `account_info` folder to your Roundcube `plugins` directory
+* Add `account_info` to `$config['plugins']` in your Roundcube `config/main.inc.php`
