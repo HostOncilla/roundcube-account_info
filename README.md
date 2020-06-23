@@ -1,7 +1,7 @@
 Account Information Plugin for Roundcube
 ========================================
 
-Roundcube plugin that exports mail config profile and displays account information. This plugin is based on href="https://github.com/paspo/roundcube_export_provisioning">export_provisioning</a> by <a href="https://github.com/paspo/">paspo</a>.
+Roundcube plugin that exports mail config profile and displays account information. This plugin is based on <a href="https://github.com/paspo/roundcube_export_provisioning">export_provisioning</a> by <a href="https://github.com/paspo/">paspo</a>.
 
 ## License
 
