@@ -11,7 +11,7 @@ This plugin is released under the <a href="https://www.gnu.org/licenses/gpl.html
 
 * Rename the plugin folder to `account_info`
 * Upload `account_info` folder to your Roundcube `plugins` directory
-* Add `account_info` to `$config['plugins']` in your Roundcube `config/main.inc.php`
+* Add `account_info` to `$config['plugins']` in your Roundcube `config/config.inc.php`
 
 ## Configuration
 
