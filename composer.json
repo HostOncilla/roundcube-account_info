@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.org"
+            "url": "https://plugins.roundcube.net"
         }
     ],
     "require": {
