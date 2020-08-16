@@ -17,5 +17,5 @@ This plugin is released under the <a href="https://www.gnu.org/licenses/gpl.html
 
 You can customize some settings :
 
-* Rename config.inc.php.dist to config.inc.php
-* Edit config.inc.php as you fancy
+* Rename `plugins/account_info/config.inc.php.dist` to `plugins/account_info/config.inc.php`
+* Edit `plugins/account_info/config.inc.php` as you fancy
